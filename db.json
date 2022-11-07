@@ -1,0 +1,238 @@
+{
+    "livros": [
+        {
+            "id": 1,
+            "genero": "Fantasia",
+            "nome": "Lendários"
+        },
+        {
+            "id": 2,
+            "genero": "Romance",
+            "nome": "A hipótese do amor"
+        },
+        {
+            "id": 3,
+            "genero": "Terror",
+            "nome": "It a coisa"
+        },
+        {
+            "id": 4,
+            "genero": "Fantasia",
+            "nome": "Trono de vidro"
+        },
+        {
+            "id": 5,
+            "genero": "Romance",
+            "nome": "Uma farsa de amor na Espanha"
+        },
+        {
+            "id": 6,
+            "genero": "Terror",
+            "nome": "Frankenstein"
+        },
+        {
+            "id": 7,
+            "genero": "Fantasia",
+            "nome": "A rebelde do deserto"
+        },
+        {
+            "id": 8,
+            "genero": "Romance",
+            "nome": "Clube do livro dos homens"
+        },
+        {
+            "id": 9,
+            "genero": "Terror",
+            "nome": "Dracula"
+        },
+        {
+            "id": 10,
+            "genero": "Fantasia",
+            "nome": "O príncipe cruel"
+        },
+        {
+            "id": 11,
+            "genero": "Romance",
+            "nome": "Imperfeitos"
+        },
+        {
+            "id": 12,
+            "genero": "Terror",
+            "nome": "O silêncio dos inocentes"
+        },
+        {
+            "id": 13,
+            "genero": "Fantasia",
+            "nome": "A rainha vermelha"
+        },
+        {
+            "id": 14,
+            "genero": "Romance",
+            "nome": "Você me ganhou no olá"
+        },
+        {
+            "id": 15,
+            "genero": "Terror",
+            "nome": "Carrie a estranha"
+        },
+        {
+            "id": 16,
+            "genero": "Fantasia",
+            "nome": "Duna"
+        },
+        {
+            "id": 17,
+            "genero": "Romance",
+            "nome": "Teto para dois"
+        },
+        {
+            "id": 18,
+            "genero": "Terror",
+            "nome": "O vilarejo"
+        },
+        {
+            "id": 19,
+            "genero": "Fantasia",
+            "nome": "Sombra e ossos"
+        },
+        {
+            "id": 20,
+            "genero": "Romance",
+            "nome": "Aconteceu naquele verão"
+        },{
+            "id": 21,
+            "genero": "Terror",
+            "nome": "O exorcista"
+        }
+    ],
+    "livro": [
+        {
+            "id": 1,
+            "nome": "Lendários",
+            "autor": "Tracy Deonn",
+            "valor": "50,00",
+            "sinopse": "Com a ajuda de Nick, um ex-membro que quer distância da Ordem, Bree se infiltra nesse mundo de magia, privilégios e segredos para descobrir o que realmente aconteceu em seu passado. Ela só não contava com uma verdade avassaladora: os Lendários não são os únicos com o dom da magia."
+        },
+        {
+            "id": 2,
+            "nome": "A hipótese do amor",
+            "autor": "Ali Hazelwood",
+            "valor": "46,00",
+            "sinopse": "Quando um relacionamento falso entre cientistas encontra a irresistível força da atração, as teorias de uma mulher sobre o amor, cuidadosamente calculadas, são postas à prova. Olive Smith, uma estudante de doutoramento em Biologia, não acredita em namoros duradouros."
+        },{
+            "id": 3,
+            "nome": "It a coisa",
+            "autor": "Stephen King",
+            "valor": "109,90",
+            "sinopse": "Durante as férias de 1958, em uma pacata cidadezinha chamada Derry, um grupo de sete amigos começa a ver coisas estranhas. Um conta que viu um palhaço, outro que viu uma múmia. Finalmente, acabam descobrindo que estavam todos vendo a mesma coisa: um ser sobrenatural e maligno que pode assumir várias formas."
+        },{
+            "id": 4,
+            "nome": "Trono de vidro",
+            "autor": "Sarah J. Maas",
+            "valor": "34,90",
+            "sinopse": "Trono de vidro tem como protagonista Celaena Sardothien, a maior assassina de Adarlan, hoje condenada à escravidão nas minas de sal. Celaena recebe a proposta de participar de uma competição para se tornar a campeã do rei, em troca de sua liberdade."
+        },{
+            "id": 5,
+            "nome": "Uma farsa de amor na Espanha",
+            "autor": "Elena Armas",
+            "valor": "47,90",
+            "sinopse": "Catalina Martín é uma jovem espanhola que trabalha como engenheira em Nova York. Com o casamento da irmã se aproximando, ela precisa desesperadamente de um acompanhante, porque não quer encarar sozinha toda a família e, principalmente, o irmão do noivo, que é ninguém menos do que seu ex."
+        },{
+            "id": 6,
+            "nome": "Frankenstein",
+            "autor": "Mary Shelley",
+            "valor": "38,60",
+            "sinopse": "Henry Frankenstein, um cientista louco, vagueia à noite pelo cemitério procurando membros de diversos cadáveres para costurá-los e formar um único homem, mas para dar vida a este ser monstruoso, um cérebro é necessário."
+        },{
+            "id": 7,
+            "nome": "A rebelde do deserto",
+            "autor": "Alwyn Hamilton",
+            "valor": "25,06",
+            "sinopse": "O destino do deserto está nas mãos de Amani Al'Hiza ― uma garota feita de fogo e pólvora, com o dedo sempre no gatilho. O deserto de Miraji é governado por mortais, mas criaturas míticas rondam as áreas mais selvagens e remotas, e há boatos de que, em algum lugar, os djinnis ainda praticam magia."
+        },{
+            "id": 8,
+            "nome": "Clube do livro dos homens",
+            "autor": "Lyssa Kay Adams",
+            "valor": "31,90",
+            "sinopse": "O Clube do livro dos homens traz a história de Gavin, um jogador de beisebol e de Thea, sua esposa, com quem tem 2 filhas gêmeas Amelia e Ava e o cachorro Manteiga. Thea pede o divórcio a Gavin e ele descobre que ela fingia na cama com ele. Ai os amigos dele resolvem ajuda-lo a conquistar a mulher de novo."
+        },{
+            "id": 9,
+            "nome": "Dracula",
+            "autor": "Bram Stoker",
+            "valor": "44,90",
+            "sinopse": "O jovem advogado inglês Jonathan Harker aceita um trabalho em uma vila sombria nas brumas da Transilvânia, na Romênia. Ele é capturado e aprisionado pelo vampiro Drácula, que viaja para Londres inspirado por uma fotografia da noiva de Harker, Mina Murray. "
+        },{
+            "id": 10,
+            "nome": "O príncipe cruel",
+            "autor": "Holly Black",
+            "valor": "41,89",
+            "sinopse": "Jude tinha 7 anos quando seus pais foram assassinados e foi forçada a viver no Reino das Fadas. Dez anos depois, tudo o que ela quer é ser como eles – lindos e imortais – e realmente pertencer ao Reino das Fadas, apesar de sua mortalidade. Mas muitos do povo das Fadas desprezam os humanos."
+        },{
+            "id": 11,
+            "nome": "Imperfeitos",
+            "autor": "Christina Lauren",
+            "valor": "22,40",
+            "sinopse": "live se sente como a gêmea azarada da casa: dos acidentes estranhamente inexplicáveis ao fracasso na vida profissional e amorosa — nada dá certo para ela. Porém, parece que o jogo vira quando sua alergia a frutos do mar a protege de um desastre, já que todos os convidados da festa de casamento da irmã sofrem com intoxicação alimentar.."
+        },{
+            "id": 12,
+            "nome": "O silêncio dos inocentes",
+            "autor": "Thomas Harris",
+            "valor": "30,14",
+            "sinopse": "Para chegar até o sanguinário assassino, a jovem agente do FBI, Clarice Starling, entrevista o ardiloso psiquiatra Hannibal Lecter, cuja mente psicopata está perigosamente voltada para o crime"
+        },{
+            "id": 13,
+            "nome": "A rainha vermelha",
+            "autor": "Victoria Aveyard",
+            "valor": "27,90",
+            "sinopse": "Mare e sua família são vermelhos: plebeus, humildes, destinados a servir uma elite prateada cujos poderes sobrenaturais os tornam quase deuses. Mare rouba o que pode para ajudar sua família a sobreviver e não tem esperanças de escapar do vilarejo miserável onde mora."
+        },{
+            "id": 14,
+            "nome": "Você me ganhou no olá",
+            "autor": "Alexis Daria",
+            "valor": "22,90",
+            "sinopse": "Jasmine é uma atriz latina que vai trabalhar com um ator numa novela e começa a rolar uma tensão sexual, uma atração irresistível entre eles. Só que ele carrega um segredo por isso ele foge das câmeras e tenta a todo custo manter afastada a vida pessoal dele."
+        },{
+            "id": 15,
+            "nome": "Carrie a estranha",
+            "autor": "Stephen King",
+            "valor": "37,50",
+            "sinopse": "Carrie é uma adolescente tímida e solitária. Aos 16 anos, é completamente dominada pela mãe, uma fanática religiosa que reprime todas as vontades e descobertas normais aos jovens de sua idade. Para Carrie, tudo é pecado. Viver é enfrentar todo dia o terrível peso da culpa."
+        },{
+            "id": 16,
+            "nome": "Duna",
+            "autor": "Frank Herbert",
+            "valor": "58,00",
+            "sinopse": "O livro conta a história do jovem Paul Atreides, herdeiro do Duque Leto Atreides e da respectiva Casa Atreides, na ocasião da transferência de sua família para o planeta Arrakis, a única fonte no universo da especiaria melange."
+        },{
+            "id": 17,
+            "nome": "Teto para dois",
+            "autor": "Beth O'Leary",
+            "valor": "44,90",
+            "sinopse": "Leon está enrolado com questões financeiras e tem uma ideia pouco convencional para arranjar dinheiro rápido: sublocar seu apartamento, onde fica apenas no período da manhã e da tarde nos dias úteis, já que passa os finais de semana com a namorada e trabalha como enfermeiro no turno da noite."
+        },{
+            "id": 18,
+            "nome": "O vilarejo",
+            "autor": "Raphael Montes",
+            "valor": "23,90",
+            "sinopse": "O Vilarejo narra a história de um pequeno povoado abandonado e diariamente maltratado pela fome, frio e solidão. Dentro dessa pequena vila, os mais assustadores acontecimentos se desenrolam a partir das respostas que os moradores encontram para a sua condição."
+        },{
+            "id": 19,
+            "nome": "Sombra e ossos",
+            "autor": "Leigh Bardugo",
+            "valor": "28,90",
+            "sinopse": "Sombra e Ossos apresenta a história de dois órfãos, uma menina e um menino. A menina é magrela e sem graça, e trabalha como cartógrafa no primeiro exército de Ravka. O menino é o melhor rastreador de Ravka. Os dois cresceram como irmãos, mas há um tempo a menina esconde uma paixão pelo menino."
+        },{
+            "id": 20,
+            "nome": "Aconteceu naquele verão",
+            "autor": "Tracy Deonn",
+            "valor": "29,09",
+            "sinopse": "Piper Bellinger, uma das “it girls” mais influentes de Los Angeles, causa nos eventos e nas redes sociais. Quando ela invade a cobertura de um hotel e faz uma festa que acaba saindo do controle, depois de levar um fora do namorado, seu padrasto decide dar um basta no estilo de vida inconsequente de Piper."
+        },{
+            "id": 21,
+            "nome": "O exorcista",
+            "autor": "William Peter Blatty",
+            "valor": "44,90",
+            "sinopse": "O livro conta a história de Regan MacNeil, uma garota de 12 anos que é possuída pelo demônio. Há boatos de que a história do livro seja baseada no real caso de Exorcismo de Roland Doe. Em 1973, o livro virou um filme de grande sucesso, dirigido por William Friedkin."
+        }
+    ]
+}
