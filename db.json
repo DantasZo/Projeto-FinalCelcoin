@@ -3,106 +3,127 @@
         {
             "id": 1,
             "genero": "Fantasia",
-            "nome": "Lendários"
+            "nome": "Lendários",
+            "capa": "data:image/jpeg;base64,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"
         },
         {
             "id": 2,
             "genero": "Romance",
-            "nome": "A hipótese do amor"
+            "nome": "A hipótese do amor",
+            "capa": "https://m.media-amazon.com/images/I/41knBs4ouOL.jpg"
         },
         {
             "id": 3,
             "genero": "Terror",
-            "nome": "It a coisa"
+            "nome": "It a coisa",
+            "capa": "https://m.media-amazon.com/images/I/51z0s3GcvwL._SX346_BO1,204,203,200_.jpg"
         },
         {
             "id": 4,
             "genero": "Fantasia",
-            "nome": "Trono de vidro"
+            "nome": "Trono de vidro",
+            "capa": "https://m.media-amazon.com/images/I/41NhERQs9DL._SY344_BO1,204,203,200_QL70_ML2_.jpg"
         },
         {
             "id": 5,
             "genero": "Romance",
-            "nome": "Uma farsa de amor na Espanha"
+            "nome": "Uma farsa de amor na Espanha",
+            "capa": "https://m.media-amazon.com/images/I/41ng1KZ77lL._SY346_.jpg"
         },
         {
             "id": 6,
             "genero": "Terror",
-            "nome": "Frankenstein"
+            "nome": "Frankenstein",
+            "capa": "https://m.media-amazon.com/images/I/51XNQt0VStL._SX350_BO1,204,203,200_.jpg"
         },
         {
             "id": 7,
             "genero": "Fantasia",
-            "nome": "A rebelde do deserto"
+            "nome": "A rebelde do deserto",
+            "capa": "https://m.media-amazon.com/images/I/517xxR-MbxS._SY344_BO1,204,203,200_QL70_ML2_.jpg"
         },
         {
             "id": 8,
             "genero": "Romance",
-            "nome": "Clube do livro dos homens"
+            "nome": "Clube do livro dos homens",
+            "capa": "https://m.media-amazon.com/images/I/51h04+d0j4L._SY344_BO1,204,203,200_.jpg"
         },
         {
             "id": 9,
             "genero": "Terror",
-            "nome": "Dracula"
+            "nome": "Dracula",
+            "capa": "https://m.media-amazon.com/images/I/41UN7I4TiGL._SY344_BO1,204,203,200_QL70_ML2_.jpg"
         },
         {
             "id": 10,
             "genero": "Fantasia",
-            "nome": "O príncipe cruel"
+            "nome": "O príncipe cruel",
+            "capa": "https://m.media-amazon.com/images/I/51BSHmTVwsS._SY344_BO1,204,203,200_QL70_ML2_.jpg"
         },
         {
             "id": 11,
             "genero": "Romance",
-            "nome": "Imperfeitos"
+            "nome": "Imperfeitos",
+            "capa": "https://m.media-amazon.com/images/I/51Aep6qdvwL._SY344_BO1,204,203,200_QL70_ML2_.jpg"
         },
         {
             "id": 12,
             "genero": "Terror",
-            "nome": "O silêncio dos inocentes"
+            "nome": "O silêncio dos inocentes",
+            "capa": "https://m.media-amazon.com/images/I/51p1stCQ8YL._SX335_BO1,204,203,200_.jpg"
         },
         {
             "id": 13,
             "genero": "Fantasia",
-            "nome": "A rainha vermelha"
+            "nome": "A rainha vermelha",
+            "capa": "https://m.media-amazon.com/images/I/41sr7+fVRGL._SY344_BO1,204,203,200_.jpg"
         },
         {
             "id": 14,
             "genero": "Romance",
-            "nome": "Você me ganhou no olá"
+            "nome": "Você me ganhou no olá",
+            "capa": "https://m.media-amazon.com/images/I/51QIJI8j7iS._SY344_BO1,204,203,200_QL70_ML2_.jpg"
         },
         {
             "id": 15,
             "genero": "Terror",
-            "nome": "Carrie a estranha"
+            "nome": "Carrie a estranha",
+            "capa": "https://m.media-amazon.com/images/I/51okzfeaQ0L._SY344_BO1,204,203,200_QL70_ML2_.jpg"
         },
         {
             "id": 16,
             "genero": "Fantasia",
-            "nome": "Duna"
+            "nome": "Duna",
+            "capa": "https://m.media-amazon.com/images/I/41MRn6hy8-L._SY344_BO1,204,203,200_QL70_ML2_.jpg"
         },
         {
             "id": 17,
             "genero": "Romance",
-            "nome": "Teto para dois"
+            "nome": "Teto para dois",
+            "capa": "https://m.media-amazon.com/images/I/51YxURViIqL._SX295_BO1,204,203,200_.jpg"
         },
         {
             "id": 18,
             "genero": "Terror",
-            "nome": "O vilarejo"
+            "nome": "O vilarejo",
+            "capa": "https://m.media-amazon.com/images/I/41R9pm5hL-L._SY344_BO1,204,203,200_QL70_ML2_.jpg"
         },
         {
             "id": 19,
             "genero": "Fantasia",
-            "nome": "Sombra e ossos"
+            "nome": "Sombra e ossos",
+            "capa": "https://m.media-amazon.com/images/I/51irOFtUwsL._SY344_BO1,204,203,200_QL70_ML2_.jpg"
         },
         {
             "id": 20,
             "genero": "Romance",
-            "nome": "Aconteceu naquele verão"
+            "nome": "Aconteceu naquele verão",
+            "capa": "https://m.media-amazon.com/images/I/41penSYbcBL._SX258_BO1,204,203,200_QL70_ML2_.jpg"
         },{
             "id": 21,
             "genero": "Terror",
-            "nome": "O exorcista"
+            "nome": "O exorcista",
+            "capa": "https://m.media-amazon.com/images/I/514BugWI0cL._SY344_BO1,204,203,200_QL70_ML2_.jpg"
         }
     ],
     "livro": [
@@ -111,128 +132,149 @@
             "nome": "Lendários",
             "autor": "Tracy Deonn",
             "valor": "50,00",
-            "sinopse": "Com a ajuda de Nick, um ex-membro que quer distância da Ordem, Bree se infiltra nesse mundo de magia, privilégios e segredos para descobrir o que realmente aconteceu em seu passado. Ela só não contava com uma verdade avassaladora: os Lendários não são os únicos com o dom da magia."
+            "sinopse": "Com a ajuda de Nick, um ex-membro que quer distância da Ordem, Bree se infiltra nesse mundo de magia, privilégios e segredos para descobrir o que realmente aconteceu em seu passado. Ela só não contava com uma verdade avassaladora: os Lendários não são os únicos com o dom da magia.",
+            "capa": "data:image/jpeg;base64,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"
         },
         {
             "id": 2,
             "nome": "A hipótese do amor",
             "autor": "Ali Hazelwood",
             "valor": "46,00",
-            "sinopse": "Quando um relacionamento falso entre cientistas encontra a irresistível força da atração, as teorias de uma mulher sobre o amor, cuidadosamente calculadas, são postas à prova. Olive Smith, uma estudante de doutoramento em Biologia, não acredita em namoros duradouros."
+            "sinopse": "Quando um relacionamento falso entre cientistas encontra a irresistível força da atração, as teorias de uma mulher sobre o amor, cuidadosamente calculadas, são postas à prova. Olive Smith, uma estudante de doutoramento em Biologia, não acredita em namoros duradouros.",
+            "capa": "https://m.media-amazon.com/images/I/41knBs4ouOL.jpg"
         },{
             "id": 3,
             "nome": "It a coisa",
             "autor": "Stephen King",
             "valor": "109,90",
-            "sinopse": "Durante as férias de 1958, em uma pacata cidadezinha chamada Derry, um grupo de sete amigos começa a ver coisas estranhas. Um conta que viu um palhaço, outro que viu uma múmia. Finalmente, acabam descobrindo que estavam todos vendo a mesma coisa: um ser sobrenatural e maligno que pode assumir várias formas."
+            "sinopse": "Durante as férias de 1958, em uma pacata cidadezinha chamada Derry, um grupo de sete amigos começa a ver coisas estranhas. Um conta que viu um palhaço, outro que viu uma múmia. Finalmente, acabam descobrindo que estavam todos vendo a mesma coisa: um ser sobrenatural e maligno que pode assumir várias formas.",
+            "capa": "https://m.media-amazon.com/images/I/51z0s3GcvwL._SX346_BO1,204,203,200_.jpg"
         },{
             "id": 4,
             "nome": "Trono de vidro",
             "autor": "Sarah J. Maas",
             "valor": "34,90",
-            "sinopse": "Trono de vidro tem como protagonista Celaena Sardothien, a maior assassina de Adarlan, hoje condenada à escravidão nas minas de sal. Celaena recebe a proposta de participar de uma competição para se tornar a campeã do rei, em troca de sua liberdade."
+            "sinopse": "Trono de vidro tem como protagonista Celaena Sardothien, a maior assassina de Adarlan, hoje condenada à escravidão nas minas de sal. Celaena recebe a proposta de participar de uma competição para se tornar a campeã do rei, em troca de sua liberdade.",
+            "capa": "https://m.media-amazon.com/images/I/41NhERQs9DL._SY344_BO1,204,203,200_QL70_ML2_.jpg"
         },{
             "id": 5,
             "nome": "Uma farsa de amor na Espanha",
             "autor": "Elena Armas",
             "valor": "47,90",
-            "sinopse": "Catalina Martín é uma jovem espanhola que trabalha como engenheira em Nova York. Com o casamento da irmã se aproximando, ela precisa desesperadamente de um acompanhante, porque não quer encarar sozinha toda a família e, principalmente, o irmão do noivo, que é ninguém menos do que seu ex."
+            "sinopse": "Catalina Martín é uma jovem espanhola que trabalha como engenheira em Nova York. Com o casamento da irmã se aproximando, ela precisa desesperadamente de um acompanhante, porque não quer encarar sozinha toda a família e, principalmente, o irmão do noivo, que é ninguém menos do que seu ex.",
+            "capa": "https://m.media-amazon.com/images/I/41ng1KZ77lL._SY346_.jpg"
         },{
             "id": 6,
             "nome": "Frankenstein",
             "autor": "Mary Shelley",
             "valor": "38,60",
-            "sinopse": "Henry Frankenstein, um cientista louco, vagueia à noite pelo cemitério procurando membros de diversos cadáveres para costurá-los e formar um único homem, mas para dar vida a este ser monstruoso, um cérebro é necessário."
+            "sinopse": "Henry Frankenstein, um cientista louco, vagueia à noite pelo cemitério procurando membros de diversos cadáveres para costurá-los e formar um único homem, mas para dar vida a este ser monstruoso, um cérebro é necessário.",
+            "capa": "https://m.media-amazon.com/images/I/51XNQt0VStL._SX350_BO1,204,203,200_.jpg"
         },{
             "id": 7,
             "nome": "A rebelde do deserto",
             "autor": "Alwyn Hamilton",
             "valor": "25,06",
-            "sinopse": "O destino do deserto está nas mãos de Amani Al'Hiza ― uma garota feita de fogo e pólvora, com o dedo sempre no gatilho. O deserto de Miraji é governado por mortais, mas criaturas míticas rondam as áreas mais selvagens e remotas, e há boatos de que, em algum lugar, os djinnis ainda praticam magia."
+            "sinopse": "O destino do deserto está nas mãos de Amani Al'Hiza ― uma garota feita de fogo e pólvora, com o dedo sempre no gatilho. O deserto de Miraji é governado por mortais, mas criaturas míticas rondam as áreas mais selvagens e remotas, e há boatos de que, em algum lugar, os djinnis ainda praticam magia.",
+            "capa": "https://m.media-amazon.com/images/I/517xxR-MbxS._SY344_BO1,204,203,200_QL70_ML2_.jpg"
         },{
             "id": 8,
             "nome": "Clube do livro dos homens",
             "autor": "Lyssa Kay Adams",
             "valor": "31,90",
-            "sinopse": "O Clube do livro dos homens traz a história de Gavin, um jogador de beisebol e de Thea, sua esposa, com quem tem 2 filhas gêmeas Amelia e Ava e o cachorro Manteiga. Thea pede o divórcio a Gavin e ele descobre que ela fingia na cama com ele. Ai os amigos dele resolvem ajuda-lo a conquistar a mulher de novo."
+            "sinopse": "O Clube do livro dos homens traz a história de Gavin, um jogador de beisebol e de Thea, sua esposa, com quem tem 2 filhas gêmeas Amelia e Ava e o cachorro Manteiga. Thea pede o divórcio a Gavin e ele descobre que ela fingia na cama com ele. Ai os amigos dele resolvem ajuda-lo a conquistar a mulher de novo.",
+            "capa": "https://m.media-amazon.com/images/I/51h04+d0j4L._SY344_BO1,204,203,200_.jpg"
         },{
             "id": 9,
             "nome": "Dracula",
             "autor": "Bram Stoker",
             "valor": "44,90",
-            "sinopse": "O jovem advogado inglês Jonathan Harker aceita um trabalho em uma vila sombria nas brumas da Transilvânia, na Romênia. Ele é capturado e aprisionado pelo vampiro Drácula, que viaja para Londres inspirado por uma fotografia da noiva de Harker, Mina Murray. "
+            "sinopse": "O jovem advogado inglês Jonathan Harker aceita um trabalho em uma vila sombria nas brumas da Transilvânia, na Romênia. Ele é capturado e aprisionado pelo vampiro Drácula, que viaja para Londres inspirado por uma fotografia da noiva de Harker, Mina Murray. ",
+            "capa": "https://m.media-amazon.com/images/I/41UN7I4TiGL._SY344_BO1,204,203,200_QL70_ML2_.jpg"
         },{
             "id": 10,
             "nome": "O príncipe cruel",
             "autor": "Holly Black",
             "valor": "41,89",
-            "sinopse": "Jude tinha 7 anos quando seus pais foram assassinados e foi forçada a viver no Reino das Fadas. Dez anos depois, tudo o que ela quer é ser como eles – lindos e imortais – e realmente pertencer ao Reino das Fadas, apesar de sua mortalidade. Mas muitos do povo das Fadas desprezam os humanos."
+            "sinopse": "Jude tinha 7 anos quando seus pais foram assassinados e foi forçada a viver no Reino das Fadas. Dez anos depois, tudo o que ela quer é ser como eles – lindos e imortais – e realmente pertencer ao Reino das Fadas, apesar de sua mortalidade. Mas muitos do povo das Fadas desprezam os humanos.",
+            "capa": "https://m.media-amazon.com/images/I/51BSHmTVwsS._SY344_BO1,204,203,200_QL70_ML2_.jpg"
         },{
             "id": 11,
             "nome": "Imperfeitos",
             "autor": "Christina Lauren",
             "valor": "22,40",
-            "sinopse": "live se sente como a gêmea azarada da casa: dos acidentes estranhamente inexplicáveis ao fracasso na vida profissional e amorosa — nada dá certo para ela. Porém, parece que o jogo vira quando sua alergia a frutos do mar a protege de um desastre, já que todos os convidados da festa de casamento da irmã sofrem com intoxicação alimentar.."
+            "sinopse": "live se sente como a gêmea azarada da casa: dos acidentes estranhamente inexplicáveis ao fracasso na vida profissional e amorosa — nada dá certo para ela. Porém, parece que o jogo vira quando sua alergia a frutos do mar a protege de um desastre, já que todos os convidados da festa de casamento da irmã sofrem com intoxicação alimentar..",
+            "capa": "https://m.media-amazon.com/images/I/51Aep6qdvwL._SY344_BO1,204,203,200_QL70_ML2_.jpg"
         },{
             "id": 12,
             "nome": "O silêncio dos inocentes",
             "autor": "Thomas Harris",
             "valor": "30,14",
-            "sinopse": "Para chegar até o sanguinário assassino, a jovem agente do FBI, Clarice Starling, entrevista o ardiloso psiquiatra Hannibal Lecter, cuja mente psicopata está perigosamente voltada para o crime"
+            "sinopse": "Para chegar até o sanguinário assassino, a jovem agente do FBI, Clarice Starling, entrevista o ardiloso psiquiatra Hannibal Lecter, cuja mente psicopata está perigosamente voltada para o crime",
+            "capa": "https://m.media-amazon.com/images/I/51p1stCQ8YL._SX335_BO1,204,203,200_.jpg"
         },{
             "id": 13,
             "nome": "A rainha vermelha",
             "autor": "Victoria Aveyard",
             "valor": "27,90",
-            "sinopse": "Mare e sua família são vermelhos: plebeus, humildes, destinados a servir uma elite prateada cujos poderes sobrenaturais os tornam quase deuses. Mare rouba o que pode para ajudar sua família a sobreviver e não tem esperanças de escapar do vilarejo miserável onde mora."
+            "sinopse": "Mare e sua família são vermelhos: plebeus, humildes, destinados a servir uma elite prateada cujos poderes sobrenaturais os tornam quase deuses. Mare rouba o que pode para ajudar sua família a sobreviver e não tem esperanças de escapar do vilarejo miserável onde mora.",
+            "capa": "https://m.media-amazon.com/images/I/41sr7+fVRGL._SY344_BO1,204,203,200_.jpg"
         },{
             "id": 14,
             "nome": "Você me ganhou no olá",
             "autor": "Alexis Daria",
             "valor": "22,90",
-            "sinopse": "Jasmine é uma atriz latina que vai trabalhar com um ator numa novela e começa a rolar uma tensão sexual, uma atração irresistível entre eles. Só que ele carrega um segredo por isso ele foge das câmeras e tenta a todo custo manter afastada a vida pessoal dele."
+            "sinopse": "Jasmine é uma atriz latina que vai trabalhar com um ator numa novela e começa a rolar uma tensão sexual, uma atração irresistível entre eles. Só que ele carrega um segredo por isso ele foge das câmeras e tenta a todo custo manter afastada a vida pessoal dele.",
+            "capa": "https://m.media-amazon.com/images/I/51QIJI8j7iS._SY344_BO1,204,203,200_QL70_ML2_.jpg"
         },{
             "id": 15,
             "nome": "Carrie a estranha",
             "autor": "Stephen King",
             "valor": "37,50",
-            "sinopse": "Carrie é uma adolescente tímida e solitária. Aos 16 anos, é completamente dominada pela mãe, uma fanática religiosa que reprime todas as vontades e descobertas normais aos jovens de sua idade. Para Carrie, tudo é pecado. Viver é enfrentar todo dia o terrível peso da culpa."
+            "sinopse": "Carrie é uma adolescente tímida e solitária. Aos 16 anos, é completamente dominada pela mãe, uma fanática religiosa que reprime todas as vontades e descobertas normais aos jovens de sua idade. Para Carrie, tudo é pecado. Viver é enfrentar todo dia o terrível peso da culpa.",
+            "capa": "https://m.media-amazon.com/images/I/51okzfeaQ0L._SY344_BO1,204,203,200_QL70_ML2_.jpg"
         },{
             "id": 16,
             "nome": "Duna",
             "autor": "Frank Herbert",
             "valor": "58,00",
-            "sinopse": "O livro conta a história do jovem Paul Atreides, herdeiro do Duque Leto Atreides e da respectiva Casa Atreides, na ocasião da transferência de sua família para o planeta Arrakis, a única fonte no universo da especiaria melange."
+            "sinopse": "O livro conta a história do jovem Paul Atreides, herdeiro do Duque Leto Atreides e da respectiva Casa Atreides, na ocasião da transferência de sua família para o planeta Arrakis, a única fonte no universo da especiaria melange.",
+            "capa": "https://m.media-amazon.com/images/I/41MRn6hy8-L._SY344_BO1,204,203,200_QL70_ML2_.jpg"
         },{
             "id": 17,
             "nome": "Teto para dois",
             "autor": "Beth O'Leary",
             "valor": "44,90",
-            "sinopse": "Leon está enrolado com questões financeiras e tem uma ideia pouco convencional para arranjar dinheiro rápido: sublocar seu apartamento, onde fica apenas no período da manhã e da tarde nos dias úteis, já que passa os finais de semana com a namorada e trabalha como enfermeiro no turno da noite."
+            "sinopse": "Leon está enrolado com questões financeiras e tem uma ideia pouco convencional para arranjar dinheiro rápido: sublocar seu apartamento, onde fica apenas no período da manhã e da tarde nos dias úteis, já que passa os finais de semana com a namorada e trabalha como enfermeiro no turno da noite.",
+            "capa": "https://m.media-amazon.com/images/I/51YxURViIqL._SX295_BO1,204,203,200_.jpg"
         },{
             "id": 18,
             "nome": "O vilarejo",
             "autor": "Raphael Montes",
             "valor": "23,90",
-            "sinopse": "O Vilarejo narra a história de um pequeno povoado abandonado e diariamente maltratado pela fome, frio e solidão. Dentro dessa pequena vila, os mais assustadores acontecimentos se desenrolam a partir das respostas que os moradores encontram para a sua condição."
+            "sinopse": "O Vilarejo narra a história de um pequeno povoado abandonado e diariamente maltratado pela fome, frio e solidão. Dentro dessa pequena vila, os mais assustadores acontecimentos se desenrolam a partir das respostas que os moradores encontram para a sua condição.",
+            "capa": "https://m.media-amazon.com/images/I/41R9pm5hL-L._SY344_BO1,204,203,200_QL70_ML2_.jpg"
         },{
             "id": 19,
             "nome": "Sombra e ossos",
             "autor": "Leigh Bardugo",
             "valor": "28,90",
-            "sinopse": "Sombra e Ossos apresenta a história de dois órfãos, uma menina e um menino. A menina é magrela e sem graça, e trabalha como cartógrafa no primeiro exército de Ravka. O menino é o melhor rastreador de Ravka. Os dois cresceram como irmãos, mas há um tempo a menina esconde uma paixão pelo menino."
+            "sinopse": "Sombra e Ossos apresenta a história de dois órfãos, uma menina e um menino. A menina é magrela e sem graça, e trabalha como cartógrafa no primeiro exército de Ravka. O menino é o melhor rastreador de Ravka. Os dois cresceram como irmãos, mas há um tempo a menina esconde uma paixão pelo menino.",
+            "capa": "https://m.media-amazon.com/images/I/51irOFtUwsL._SY344_BO1,204,203,200_QL70_ML2_.jpg"
         },{
             "id": 20,
             "nome": "Aconteceu naquele verão",
             "autor": "Tracy Deonn",
             "valor": "29,09",
-            "sinopse": "Piper Bellinger, uma das “it girls” mais influentes de Los Angeles, causa nos eventos e nas redes sociais. Quando ela invade a cobertura de um hotel e faz uma festa que acaba saindo do controle, depois de levar um fora do namorado, seu padrasto decide dar um basta no estilo de vida inconsequente de Piper."
+            "sinopse": "Piper Bellinger, uma das “it girls” mais influentes de Los Angeles, causa nos eventos e nas redes sociais. Quando ela invade a cobertura de um hotel e faz uma festa que acaba saindo do controle, depois de levar um fora do namorado, seu padrasto decide dar um basta no estilo de vida inconsequente de Piper.",
+            "capa": "https://m.media-amazon.com/images/I/41penSYbcBL._SX258_BO1,204,203,200_QL70_ML2_.jpg"
         },{
             "id": 21,
             "nome": "O exorcista",
             "autor": "William Peter Blatty",
             "valor": "44,90",
-            "sinopse": "O livro conta a história de Regan MacNeil, uma garota de 12 anos que é possuída pelo demônio. Há boatos de que a história do livro seja baseada no real caso de Exorcismo de Roland Doe. Em 1973, o livro virou um filme de grande sucesso, dirigido por William Friedkin."
+            "sinopse": "O livro conta a história de Regan MacNeil, uma garota de 12 anos que é possuída pelo demônio. Há boatos de que a história do livro seja baseada no real caso de Exorcismo de Roland Doe. Em 1973, o livro virou um filme de grande sucesso, dirigido por William Friedkin.",
+            "capa": "https://m.media-amazon.com/images/I/514BugWI0cL._SY344_BO1,204,203,200_QL70_ML2_.jpg"
         }
     ]
 }
