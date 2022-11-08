@@ -1,0 +1,22 @@
+
+.info{box-sizing: content-box;
+align-items: center;
+
+}
+.livroPag{
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    width: 6em;
+}
+
+.nomeLivro{
+    display: inline-block !important;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: black;
+}
+

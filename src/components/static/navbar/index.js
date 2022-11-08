@@ -1,6 +1,7 @@
 import './style.css'
 
-import Logo from "../../assets/logo.png"
+import Logo from "../../../assets/logo.png"
+import { Link } from 'react-router-dom';
 
 function Navbar(){
     return(
@@ -9,9 +10,8 @@ function Navbar(){
         <img className='logo' src={Logo} alt="loading" />
      <nav>
         <ul className='nav_links' >
-            <li href="#"><a>Home</a></li>
-            <li href="#"><a>Produtos</a></li>
-            <li href="#"><a>Sobre</a></li>
+            <li><Link to="/"><a>Home</a></Link></li>
+            <li><a>Sobre</a></li>
         </ul>
      </nav>
      <a className='cta' href='#'> 
