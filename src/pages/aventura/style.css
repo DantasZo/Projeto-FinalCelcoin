@@ -1,22 +1,69 @@
-
-.info{box-sizing: content-box;
-align-items: center;
-
+.livro {
+  align-items: center;
+  max-width: 350px;
+  max-height: 500px;
+  list-style: none;
+  justify-content: center;
+  margin-left: 50px;
+  padding: 20px;
+  border: solid 1px;
+  background-color: rgb(76, 250, 76);
+  color: black ;
 }
-.livroPag{
-    list-style: none;
-    align-items: center;
-    justify-content: space-between;
-    margin-left: auto;
-    margin-right: auto;
-    width: 6em;
-}
-
-.nomeLivro{
-    display: inline-block !important;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    color: black;
+#sabe{
+  color: black ;
 }
 
+.titulo{
+  display: block;
+  margin: 5px auto;
+  margin-left: 70px ;
+}
+
+.Aventura {
+  
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 2em;
+  color: black
+
+}
+
+.conteudo {
+  display: block;
+  margin: 5px auto;
+  color: black ;
+  display: block;
+  margin: 5px auto;
+  align-items: center;
+
+}
+
+.botaoMais {
+  width: 135px;
+  height: 30px;
+  display: block;
+  margin: 5px auto;
+  background-color: rgb(17, 221, 14);
+  color: black ;
+  text-decoration: none;
+  border-radius: 20px;
+}
+.botaoMais:hover {
+  width: 135px;
+  height: 30px;
+  background-color: rgb(28, 162, 28);
+  color: solid black;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+}
+
+#generoAventura {
+  margin-left: 69px;
+  color: black ;
+  display: block;
+  margin-left: 100px auto;
+}

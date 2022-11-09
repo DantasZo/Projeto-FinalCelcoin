@@ -3,22 +3,21 @@ import './style.css'
 import Logo from "../../../assets/logo.png"
 import { Link } from 'react-router-dom';
 
-function Navbar(){
-    return(
+function Navbar() {
+    return (
 
-    <header className='Navbar'>
-        <img className='logo' src={Logo} alt="loading" />
-     <nav>
-        <ul className='nav_links' >
-            <li><Link to="/"><a>Home</a></Link></li>
-            <li><a>Sobre</a></li>
+        <div className="Navbar">
+      <nav>
+        <ul>
+        <img className='logo' width='80px' height='80px' align='left' src={Logo} alt="loading" />
+        
+          <li><Link to='/'><a href="#">Home</a></Link></li>
+          <li><a href="#">Sobre</a></li>
+          <button className='Navbotao'><Link to='/carrinho'>Carrinho 🛒</Link></button>
         </ul>
-     </nav>
-     <a className='cta' href='#'> 
-     <button className='carrinho'>Carrinho</button> 
-     </a>
-    </header>
-
+      </nav>
+    </div>
+  
 
     )
 }

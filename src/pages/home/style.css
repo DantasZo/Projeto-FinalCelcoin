@@ -1,6 +1,38 @@
-.topSide{
-    
-   margin-left:385px; 
-   color: bisque;
-    
+.Home {
+  text-align: center;
+  
+
+}
+.generosLit{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 2em;
+  font-size: 40px;
+  
+}
+.generosIcon{
+  width: 400px;
+  border: solid black;
+  height: 500px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif ;
+  margin: auto;
+  text-decoration: none;
+  color:black
+}
+
+#aventura{
+  background-color: rgb(76, 250, 76);
+  margin-right: 10px;
+}
+#terror{
+  background-color: grey;
+  margin-right: 10px;
+}
+#romance{
+  background-color: rgb(250, 74, 43);
+  margin: auto
 }

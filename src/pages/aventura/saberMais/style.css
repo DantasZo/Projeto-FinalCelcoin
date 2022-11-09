@@ -1,0 +1,46 @@
+.Infos{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.Conteudo{
+    align-items: center;
+    border-radius: solid 1px;
+}
+.Capa{
+    display: block;
+  margin: 5px auto;
+  max-width: 125%;
+    
+}
+.Infos{
+ align-items: center;
+}
+.Sinopse{
+max-width: 50%;
+}
+.Valor{
+    align-items: center;
+ }
+.BotaoCompra{
+    font-size: 15px;
+    border-radius: 20px;
+    background-color: rgb(17, 255, 0);
+}
+.BotaoCompra:hover{
+    cursor: pointer;
+}
+.BotaoVolta{
+    font-size: 15px;
+    border-radius: 20px;
+    background-color: red;
+
+}
+.BotaoVolta:hover{
+    cursor: pointer;
+
+}
+.Definido{
+    align-items: center;
+}

@@ -1,68 +1,45 @@
-.logo {
-    max-width: 100px;
-    max-height: 200px;
-    width: auto;
-    height: auto;
+.Navbar nav ul {
+    background-color: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+
+}
+
+.Navbar img {
+    display: inline;
     
 }
-.carrinho{
-    border-color: #ffb867;
-    padding: auto;
+
+.Navbar nav ul li {
+    justify-content: space-between;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px;
+    margin-left: 170px;
+    margin-right: 170px;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
-
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    background-color: #be5550 ;
-}
-
-li, a, button{
-    font-family: "Montserrat", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    color:bisque;
+.Navbar nav ul li a {
+    color: white;
     text-decoration: none;
 }
 
-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px 10%;
+.Navbar nav ul li a:hover {
+    color: goldenrod;
 }
 
-.nav_links{
-    list-style: none;
+.Navbotao{
+    width: 100px;
+    height: 25px;
+    background-color: whitesmoke;
+    cursor: pointer;
 }
-
-.nav_links li{
-    display: inline-block !important;
-    padding-top: 0px 20px !important;
-}
-
-.nav_links li a{
-    transition: all 0.3s ease 0;
-    margin-left: 30px;
-    font-size: 30px;
-}
-
-.nav_links li a:hover {
-
-color: #ffb867;
-}
-
-button{
-    padding: 5px 25px;
-    background-color:#be5550;
-    border-radius:5px ;
-    cursor: pointer
-    
-}
-
-button:hover{
-    color: #be5550;
-    background-color: #ffb867;
+.Navbotao:hover{
+    width: 100px;
+    height: 25px;
+    background-color: goldenrod;
+    cursor: pointer;
 }

@@ -1,24 +1,25 @@
 import { Link } from 'react-router-dom';
 import './style.css'
-import { useNavigate } from 'react-router-dom';
 
-function Home(){
- 
-    function GoTo() {
-        const navigate = useNavigate();
-        navigate("/aventura");
-      }
- 
-    return(
+function Home() {
 
-   <div className='topSide'> 
-   <h1 className='titulo'>Bem vindo a Book2You!</h1>
-   <h2>Escolha a sua sessão de livros:</h2>
-   <li><Link to="aventura">Fantasia!</Link></li>
-   <li> Terror!</li>
-   <li> Romance!</li>
-   </div>
-   
+  return (
+    <div className="Home">
+      <h1>Bem vindo! Oque você busca hoje?</h1>
+      <div className='generosLit'>
+        <p className='generosIcon' id='terror'>💀Terror
+          <img src='https://m.media-amazon.com/images/I/41R9pm5hL-L._SY344_BO1,204,203,200_QL70_ML2_.jpg' height='400px' ></img>
+        </p>
+        <p className='generosIcon' id='romance'>💘Romance
+          <img src='https://m.media-amazon.com/images/I/41ng1KZ77lL._SY346_.jpg' height='400px' ></img>
+        </p>
+        <Link to='/aventura'>
+          <p className='generosIcon' id='aventura'>⚔️Aventura
+            <img src='https://m.media-amazon.com/images/I/51SWYbVVLvL._SY344_BO1,204,203,200_QL70_ML2_.jpg' height='400px' ></img>
+          </p></Link>
+      </div>
+    </div>
+
 
   )
 }
