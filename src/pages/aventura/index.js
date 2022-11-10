@@ -6,8 +6,17 @@ import { Link } from 'react-router-dom';
 
 export default function Aventura() {
     const [livrosAventura, setLivrosAventura] = useState(null)
-    
- 
+
+
+
+
+
+
+
+
+
+
+
     useEffect(() => {
         const promise = axios.get(`${process.env.REACT_APP_BACKEND_URL}/livros/`, { params: { genero: 'Aventura' } })
         promise.then(response => {
@@ -23,12 +32,12 @@ export default function Aventura() {
             const url = `/livro/${book.id}`;
             return (
                 <div className='livro'>
-                <h1 className='titulo' >{book.nome}</h1>
-               <p className='conteudo' id='generoAventura'>{book.genero}</p>
-               <img src={book.capa} className='conteudo' width='200px' height='260px' />
-               <br></br>
-               <Link to={url}><button className='botaoMais' >Quero saber mais!</button></Link>
-           </div>
+                    <h1 className='titulo' >{book.nome}</h1>
+                    <p className='conteudo' id='generoAventura'>{book.genero}</p>
+                    <img src={book.capa} className='conteudo' width='200px' height='260px' />
+                    <br></br>
+                    <Link to={url}><button className='botaoMais' >Quero saber mais!</button></Link>
+                </div>
             )
         })
     }
