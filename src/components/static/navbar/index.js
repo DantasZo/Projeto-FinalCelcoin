@@ -11,7 +11,7 @@ function Navbar() {
         <ul>
         <img className='logo' width='80px' height='80px' align='left' src={Logo} alt="loading" />
         
-          <li><Link to='/'><a href="#">Home</a></Link></li>
+          <li><Link to='/'>Home</Link></li>
           <li><a href="#">Sobre</a></li>
           <button className='Navbotao'><Link to='/carrinho'>Carrinho 🛒</Link></button>
         </ul>

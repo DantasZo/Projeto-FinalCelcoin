@@ -4,11 +4,11 @@ import axios from "axios";
 import { Link } from 'react-router-dom';
 
 
-export default function Aventura() {
+export default function Romance() {
     const [livrosAventura, setLivrosAventura] = useState(null)
 
     useEffect(() => {
-        const promise = axios.get(`${process.env.REACT_APP_BACKEND_URL}/livros/`, { params: { genero: 'Aventura' } })
+        const promise = axios.get(`${process.env.REACT_APP_BACKEND_URL}/livros/`, { params: { genero: 'Romance' } })
         promise.then(response => {
             setLivrosAventura(response.data);
 
@@ -21,12 +21,12 @@ export default function Aventura() {
         return livrosAventura.map(book => {
             const url = `/livro/${book.id}`;
             return (
-                <div className='livro'>
+                <div className='livroRomance'>
                     <h1 className='titulo' >{book.nome}</h1>
                     <p className='conteudo' id='generoAventura'>{book.genero}</p>
                     <img src={book.capa} className='conteudo' width='200px' height='260px' />
                     <br></br>
-                    <Link to={url}><button className='botaoMais' >Quero saber mais!</button></Link>
+                    <Link to={url}><button className='botaoMaisRomance' >Quero saber mais!</button></Link>
                 </div>
             )
         })
@@ -34,7 +34,7 @@ export default function Aventura() {
 
     const aventuraComponent = buildAventura();
     return (
-        <div className='Aventura'>
+        <div className='Romance'>
 
             {aventuraComponent}
 

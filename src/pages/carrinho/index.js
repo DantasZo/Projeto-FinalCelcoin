@@ -1,54 +1,32 @@
 import { useContext, useState } from "react"
+import { Link } from "react-router-dom"
 import CartContext from "../../Context"
-
+import './style.css'
 
 export default function Cart() {
     const { cart, setCart } = useContext(CartContext)
-    const [quant, setQuant] = useState(null)
-
-
-
-    function addProduct(id) {
-        cart.forEach((book) => {
-            if (book.id === id) {
-                book.quantidade += 1
-                setQuant(book.quantidade)
-            }
-        })
-
-    }
-    function subProduct(id) {
-        cart.forEach((book) => {
-            if (book.id === id) {
-                book.quantidade -= 1
-                setQuant(book.quantidade)
-            }
-        })
-
-    }
-    console.log(cart)
+    const [ diminui, setDiminui] = useState(1)
+    
 
 
     return (
-        <div>
-            <h1>Meu Carrinho</h1>
-            {cart.map((book) => {
+        <div className="CarrinhoItems">
+            <h1 className="imagemLivro" >Meu Carrinho</h1>
+            {cart.map(({ book, quantidade }) => {
                 return (
-                    <div key={book.id}>
-                        <img src={book.img} alt="imagem do produto" />
-                        <h2>{book.nome}</h2>
-                        <p>Total: R$ {parseInt(book.valor * book.quantidade).toFixed(2).replace(".", ",")} </p>
+                    <div className="CarrinhoItems" key={book.id}>
+                        <img className="imagemLivro" src={book.capa} alt="imagem do produto" />
+                        <h2 className="imagemLivro">{book.nome}</h2>
+                        <p className="imagemLivro" >Total: R$ {parseInt(book.valor) * (quantidade)} </p>
                         <div>
-                            <button onClick={() => addProduct(book.id)}> + </button>
-                            <p>{book.quantidade}</p>
-                            <button onClick={() => subProduct(book.id)} > - </button>
+                            <p className="QuantidadeDeItem" >{quantidade}</p>
                         </div>
                     </div>
-
-
                 )
             })}
-            <button> finalizar compra </button>
+            <button className="imagemLivro" > finalizar compra </button>
+            
+           <Link to="/"> <button className="imagemLivro" > Esqueci algumas coisas!</button></Link>
         </div>
     )
 

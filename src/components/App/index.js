@@ -7,6 +7,8 @@ import SaberMais from "../../pages/aventura/saberMais";
 import Cart from "../../pages/carrinho";
 import CartContext from "../../Context";
 import {useState } from "react";
+import Romance from "../../pages/romance";
+import Terror from "../../pages/terror";
 
 function App() {
   const [cart, setCart]= useState([])
@@ -18,6 +20,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/aventura" element={<Aventura />} />
+        <Route path="/romance" element={<Romance />} />
+        <Route path="/terror" element={<Terror />} />
         <Route path="/livro/:id" element={<SaberMais />} />
         <Route path="/carrinho" element={<Cart/>} />
       </Routes>
