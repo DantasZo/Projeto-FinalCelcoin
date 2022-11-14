@@ -13,7 +13,7 @@ function Navbar() {
         
           <li><Link to='/'>Home</Link></li>
           <li><a href="#">Sobre</a></li>
-          <button className='Navbotao'><Link to='/carrinho'>Carrinho 🛒</Link></button>
+          <Link to='/carrinho'><button className='Navbotao'>Carrinho 🛒</button></Link>
         </ul>
       </nav>
     </div>

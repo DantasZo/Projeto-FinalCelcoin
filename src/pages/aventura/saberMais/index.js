@@ -8,12 +8,14 @@ export default function SaberMais() {
     const [livroAventura, setLivroAventura] = useState(null);
     const { id } = useParams()
     const { cart, setCart } = useContext(CartContext)
+    
     const [quantidade, setQuantidade] = useState(1);
     const navigate = useNavigate()
 
     function handleBack() {
         navigate("/")
     }
+
 
     useEffect(() => {
         const promise = axios.get(`${process.env.REACT_APP_BACKEND_URL}/livro`)
@@ -38,9 +40,25 @@ export default function SaberMais() {
             return setCart([...cart]);
         }
 
+        setCart([...cart, { book: livroAventura, quantidade}])
+    }
+
+    function retiraLivroAventur() {
+        let indexBookOrder = -1;
+        const bookOrder = cart.find(({ book }, index) => {
+            indexBookOrder = index;
+            return book.id === livroAventura.id
+        });
+        if (bookOrder && indexBookOrder >= 0) {
+            const updatedCart = [...cart];
+            updatedCart[indexBookOrder].quantidade -= quantidade;
+            return setCart([...cart]);
+        }
+
         setCart([...cart, { book: livroAventura, quantidade }])
     }
 
+  
     function fazDescricao() {
         if (!livroAventura) return <h1> Os minions estão indo buscar seus livros...</h1>
         const book = livroAventura;
@@ -54,8 +72,9 @@ export default function SaberMais() {
                     <a className='Valor'>Preço: R${book.valor}</a>
                     <br></br>
                     <button className='BotaoCompra' onClick={addlivroAventura} disabled={quantidade <= 0}>Eu quero levar !</button>
-                    <label htmlFor="quantidade">Quantidade</label>
+                    
                     <input type="number" min={1} onChange={(e) => setQuantidade(parseInt(e.target.value))} value={quantidade}></input>
+                    <button className='tira'onClick={retiraLivroAventur} disabled={cart[1]<1}>Melhor remover 1 !</button>
                     <br></br>
                     <button className='BotaoVolta' onClick={handleBack}>Vou pensar melhor!</button>
                 </div>

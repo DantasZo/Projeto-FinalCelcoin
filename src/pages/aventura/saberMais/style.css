@@ -44,3 +44,8 @@ max-width: 50%;
 .Definido{
     align-items: center;
 }
+.tira{
+    font-size: 15px;
+    border-radius: 20px;
+    background-color: rgb(237, 240, 72);
+}

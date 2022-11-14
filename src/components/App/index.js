@@ -9,9 +9,12 @@ import CartContext from "../../Context";
 import {useState } from "react";
 import Romance from "../../pages/romance";
 import Terror from "../../pages/terror";
+import Confirma from "../../pages/confirma";
+
 
 function App() {
   const [cart, setCart]= useState([])
+  
   return (
     <CartContext.Provider value={{cart, setCart}}>
     <BrowserRouter>
@@ -24,6 +27,7 @@ function App() {
         <Route path="/terror" element={<Terror />} />
         <Route path="/livro/:id" element={<SaberMais />} />
         <Route path="/carrinho" element={<Cart/>} />
+        <Route path="/pedido" element={<Confirma/>} />
       </Routes>
     </BrowserRouter>
     </CartContext.Provider>

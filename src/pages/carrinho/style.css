@@ -1,18 +1,23 @@
-.CarrinhoItems{
+.CarrinhoItems {
   display: grid;
   align-items: center;
+  border: solid 1px;
+
 }
-.imagemLivro{
+
+.imagemLivro {
   display: block;
   margin: 5px auto;
-  color: black ;
+  color: black;
   display: block;
   margin: 5px auto;
   align-items: center;
 }
-.QuantidadeDeItem{
+
+.QuantidadeDeItem {
+  width: 50%;
   margin-left: auto;
-    margin-right: auto;
-    width: 6em;
-  
+  margin-right: auto;
+  width: 6em;
+
 }
